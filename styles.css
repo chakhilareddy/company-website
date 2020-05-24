@@ -1,0 +1,227 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+/* ------------------- Main Header ----------------- */
+.main-header{
+    background: linear-gradient(45deg,black,darkred);
+    color: white;
+    padding: 12px;
+    box-shadow: 0 0 10px black;
+}
+/* ------------------- Main Navabar ----------------- */
+.main-nav{
+    background-color: black;
+    padding: 5px;
+    box-shadow: 0 0 10px black;
+}
+.main-nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 18px;
+    display: inline-block;
+}
+.main-nav a:hover{
+    background: linear-gradient(45deg,orangered,darkslategray);
+    border-radius: 50px;
+}
+.main-nav a.active{
+    background: linear-gradient(45deg,darkred,darkslategray);
+    border-radius: 50px;
+}
+
+/* ------------------- Sidebar ----------------- */
+.sidebar{
+    background: linear-gradient(180deg,black,darkred);
+    float: left;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    height: 700px;
+}
+.sidebar a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 25px;
+    font-size: 18px;
+}
+.sidebar a:hover{
+    background: linear-gradient(45deg,black,darkred);
+    box-shadow: 0 0 5px white;
+    border-radius: 50px;
+}
+
+/* ------------------- Main Content ----------------- */
+.main-content{
+    margin-left: 270px;
+    padding: 20px;
+    background-color: lightsalmon;
+}
+.main-content article h2{
+    font-size: 30px;
+    color: darkred;
+    padding-top: 20px;
+}
+.main-content article p{
+    font-size: 15px;
+    color: darkslategray;
+}
+
+/* ------------------- Main Footer ----------------- */
+.main-footer{
+    background: linear-gradient(45deg,black,darkred);
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+.main-footer a{
+    color:salmon;
+    text-decoration: none;
+}
+/*-----------About us page-----*/
+.section1{
+    background:linear-gradient(45deg,black,darkred);
+    padding:5px;
+    color:white;
+    
+}
+.about-article{
+    background-color:lightsalmon;
+    border-radius:10px;
+    padding:10px;
+    margin-bottom:10px;
+    font-size:15px;
+    color:darkslategray;
+}
+.about-article h2{
+    color:darkred;
+}
+/*--contact section----*/
+.contact-section{
+    background:linear-gradient(45deg,black,darkred);
+    padding:40px;
+    color:white;
+    font-size:18px;
+    /* width:100%; */
+    /* display:inline-block; */
+}
+.contact-content{
+    display:inline-block;
+    background-color:lightsalmon;
+    padding:10px;
+    width:400px;
+    border-radius: 20px;
+    color:darkslategray;
+    margin-right: 50px;
+    text-align:center;
+}
+.contact-content table{
+    width:400px;
+    height:300px;
+}
+.contact-content.h2{
+    text-align:center;
+}
+#btn{
+    background:linear-gradient(45deg,black,darkred);
+    color:white;
+    width:80px;
+    padding:10px;
+    border-radius:20px;
+}
+
+.contact-section h2{
+    border:2px solid lightsalmon;
+    background-color:lightsalmon;
+    width:200px;
+    text-align:center;
+    border-radius:10px;
+    color:darkred;
+}
+/*----google maps----*/
+.maps iframes{
+    display: inline-block;
+    padding:10px;
+    background-color:lightsalmon;
+    margin:30px;
+}
+/*----courses----------*/
+.courses{
+    background:linear-gradient(45deg,black,darkred);
+    padding:10px;
+}
+.courses table{
+    margin:10px;
+    
+}
+.courses table td{
+    text-align:center;
+    padding:10px;
+     font-size:15px;
+     color:coral;
+}
+.courses img{
+    border-radius:10px;
+    box-shadow:0 0 10px black;
+}
+.courses img:hover{
+    box-shadow:0 0 20px coral;
+    width:200px;
+}
+.courses button{
+    background:linear-gradient(45deg,black,darkred);
+    padding:10px;
+    border-radius:20px;
+    font-size:15px;
+    color:coral;
+    box-shadow:0 0 10px black;
+    cursor: pointer;
+}
+.courses button:hover{
+    box-shadow:0 0 10px coral;
+}
+/*----blog----*/
+.blog{
+    background:linear-gradient(45deg,black,darkred);
+}
+figure{
+
+    width: 220px;
+    text-align: center;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    display: inline-block;
+    margin-left: 35px;
+    border-radius: 5px;
+    background-color: lightsalmon;
+    text-align:center;
+    font-size:15px;
+    
+}
+figure p{
+    text-align: center;
+}
+figure:hover{
+    box-shadow: 0 0 10px whitesmoke;
+    cursor: pointer;
+}
+figure img{
+    width: 100%;
+    height: 180px;
+    border-radius: 5px;
+}
+figure figcaption{
+    background: linear-gradient(45deg,black,orangered);
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+}
+
